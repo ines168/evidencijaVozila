@@ -1,9 +1,11 @@
 public class Motocikl extends Vozilo{
+    private String tipVozila;
     private String tipMotora;
 
     public Motocikl(String registarskiBroj, String markaVozila, int godinaProizvodnje, String tipMotora) throws NeispravniPodaciException {
         super(registarskiBroj, markaVozila, godinaProizvodnje);
         this.tipMotora = tipMotora;
+        this.tipVozila = "Motocikl";
     }
 
     public String getTipMotora() {
@@ -16,6 +18,6 @@ public class Motocikl extends Vozilo{
 
     @Override
     public String prikaziPodatke() {
-        return super.prikaziPodatke() + ", Tip motora: " + tipMotora;
+        return tipVozila + "," + super.prikaziPodatke() + "," + tipMotora;
     }
 }

@@ -1,4 +1,4 @@
-Vozilo: ZG-123-HU, Marka vozila: Toyota, Godina proizvodnje: 2015, Broj vrata: 5
-Vozilo: PU-898-K, Marka vozila: Aprilia, Godina proizvodnje: 2020, Tip motora: Enduro
-Vozilo: ST-4567-DZ, Marka vozila: Fiat, Godina proizvodnje: 2012, Broj vrata: 3
-Vozilo: RI-765-FK, Marka vozila: Kawasaki, Godina proizvodnje: 2021, Tip motora: Sportski
+Automobil,ZG-123-HU,Toyota,2015,5
+Motocikl,PU-898-K,Aprilia,2020,Enduro
+Automobil,ST-4567-DZ,Fiat,2012,3
+Motocikl,RI-765-FK,Kawasaki,2021,Sportski

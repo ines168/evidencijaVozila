@@ -23,6 +23,6 @@ public class Vozilo{
 //    }
 
     public String prikaziPodatke() {
-        return "Vozilo: " + registarskiBroj + ", Marka vozila: " + markaVozila + ", Godina proizvodnje: " + godinaProizvodnje;
+        return registarskiBroj + "," + markaVozila + "," + godinaProizvodnje;
     }
 }

@@ -1,8 +1,10 @@
 public class Automobil extends Vozilo{
+    private String tipVozila;
     private int brojVrata;
 
     public Automobil(String registarskiBroj, String markaVozila, int godinaProizvodnje, int brojVrata) throws NeispravniPodaciException {
         super(registarskiBroj, markaVozila, godinaProizvodnje);
+        this.tipVozila = "Automobil";
         if (brojVrata<1) {
             throw new NeispravniPodaciException("Neispravan broj vrata.");
         }
@@ -22,6 +24,6 @@ public class Automobil extends Vozilo{
 
     @Override
     public String prikaziPodatke() {
-        return super.prikaziPodatke() + ", Broj vrata: " + brojVrata;
+        return tipVozila + "," + super.prikaziPodatke() + "," + brojVrata;
     }
 }

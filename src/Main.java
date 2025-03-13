@@ -10,12 +10,14 @@ public class Main {
             vozila.addVozilo(new Motocikl("RI-765-FK", "Kawasaki", 2021, "Sportski"));
 
             //ispis svih vozila
-            //vozila.getListaVozila();
+            System.out.println("Ispis sa .getListaVozila:");
+            vozila.getListaVozila();
 
             //spremanje vozila u datoteku
             vozila.spremiPodatkeUDatoteku("EvidencijaVozila.txt");
 
             //učitavanje vozila iz datoteke
+            System.out.println("\nIspis iz datoteke: ");
             vozila.ucitajPodatkeIzDatoteke("EvidencijaVozila.txt");
         } catch (NeispravniPodaciException e) {
             System.err.println(e.getMessage());
